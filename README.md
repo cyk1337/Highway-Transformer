@@ -1,5 +1,5 @@
 # Highway Transformer: Self-Gating Enhanced Self-Attentive Networks
-This is a demo source code of SDU enhanced Transformer-XL in PyTorch, see the original paper for more details.
+This is a demo source code of SDU enhanced Transformer-XL based on the PyTorch version of Transformer-XL.
 
 Yekun Chai *et. al.*, [Highway Transformer: Self-Gating Enhanced Self-Attentive Networks](https://ychai.uk/papers/ACL/SDU.pdf) (ACL 2020)
 
@@ -19,17 +19,20 @@ Yekun Chai *et. al.*, [Highway Transformer: Self-Gating Enhanced Self-Attentive 
 cd pytorch/xl_L6_scripts && bash <script-name>.sh train --work_dir "PATH_TO_WORK_DIR"
 ```
 ## Results
-The training bpc of different model settings, where the topmost line (in red) is the original Transformer-XL (baselines).
-![Training BPC](pngs/train_bpc.svg)
 
-Line plot of training loss.
-![Training loss](pngs/train_loss.svg)
+Line plots of different model settings, where the topmost line (in red) is the original Transformer-XL (baselines).
 
-Line plot of evaluation bpc:
-![eval BPC](pngs/eval_bpc.svg)
+training bpc            |  training loss
+:-------------------------:|:-------------------------:
+![alt-Training-1](pngs/train_bpc.svg)  |  ![Training loss](pngs/train_loss.svg)
 
-Line plot of evaluation loss:
-![eval BPC](pngs/eval_loss.svg)
+ 
+
+eval bpc            |  eval loss
+:-------------------------:|:-------------------------:
+![eval BPC](pngs/eval_bpc.svg)  |  ![eval BPC](pngs/eval_loss.svg)
+
+
 
 # Cite
 ```
