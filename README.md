@@ -5,7 +5,7 @@ Yekun Chai *et. al.*, [Highway Transformer: Self-Gating Enhanced Self-Attentive 
 
 ## Requirements
 
-- Pytorch >= 1.1.0
+- PyTorch >= 1.1.0
 - TensorboardX >= 1.8
 - Tensorboard >= 1.14
 -  **4 GPUs** of each **8GB** memory for running 12 layer Transformer-XL
