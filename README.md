@@ -18,6 +18,12 @@ Yekun Chai *et. al.*, [Highway Transformer: Self-Gating Enhanced Self-Attentive 
 ```bash
 cd pytorch/xl_L6_scripts && bash <script-name>.sh train --work_dir "PATH_TO_WORK_DIR"
 ```
+
+## Result visualization
+```bash
+cd XL-L6-results && tensorboard --logdir=.
+```
+
 ## Results
 
 Line plots of different model settings, where the topmost line (in red) is the original Transformer-XL (baselines).
