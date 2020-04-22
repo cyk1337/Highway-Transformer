@@ -1,7 +1,7 @@
 # Highway Transformer: Self-Gating Enhanced Self-Attentive Networks
 This is demo source code of SDU enhanced Transformer-XL based on the PyTorch version of Transformer-XL.
 
-Yekun Chai *et. al.*, [Highway Transformer: Self-Gating Enhanced Self-Attentive Networks](https://ychai.uk/papers/ACL/SDU.pdf) (ACL 2020)
+Yekun Chai *et. al.*, [Highway Transformer: Self-Gating Enhanced Self-Attentive Networks](https://arxiv.org/abs/2004.08178) (ACL 2020)
 
 ## Requirements
 
@@ -43,7 +43,7 @@ training bpc    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs
 # Cite
 ```
 @inproceedings{chai2020highway,
-  title={Semi-Supervised Classification with Graph Convolutional Networks},
+  title={Highway Transformer: Self-Gating Enhanced Self-Attentive Networks},
   author={Yekun, Chai and Shuo, Jin and Xinwen, Hou},
   booktitle={Proceedings of the 2020 Annual Conference of the Association for Computational Linguistics, {ACL} 2020, Seattle, Washington, United States, July 5–July 10, 2020},
   year={2020}
