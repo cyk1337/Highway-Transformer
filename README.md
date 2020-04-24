@@ -1,5 +1,5 @@
 # Highway Transformer: Self-Gating Enhanced Self-Attentive Networks
-This is demo source code of SDU enhanced Transformer-XL based on the PyTorch version of Transformer-XL.
+This is demo source code of SDU enhanced Transformer-XL based on its PyTorch version.
 
 Yekun Chai *et. al.*, [Highway Transformer: Self-Gating Enhanced Self-Attentive Networks](https://arxiv.org/abs/2004.08178) (ACL 2020)
 
