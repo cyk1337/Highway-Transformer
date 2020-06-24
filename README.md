@@ -42,10 +42,17 @@ training bpc    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs
 
 # Cite
 ```
-@inproceedings{chai2020highway,
-  title={Highway Transformer: Self-Gating Enhanced Self-Attentive Networks},
-  author={Yekun, Chai and Shuo, Jin and Xinwen, Hou},
-  booktitle={Proceedings of the 2020 Annual Conference of the Association for Computational Linguistics, {ACL} 2020, Seattle, Washington, United States, July 5–July 10, 2020},
-  year={2020}
+@inproceedings{chai-etal-2020-highway,
+    title = "Highway Transformer: Self-Gating Enhanced Self-Attentive Networks",
+    author = "Chai, Yekun  and
+      Jin, Shuo  and
+      Hou, Xinwen",
+    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.acl-main.616",
+    pages = "6887--6900"
 }
 ```
