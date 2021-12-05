@@ -1,5 +1,7 @@
 # Highway Transformer: Self-Gating Enhanced Self-Attentive Networks
-This is demo source code of SDU enhanced Transformer-XL based on its PyTorch version.
+[![ACL2020](https://img.shields.io/badge/Proceedings-ACL2020-red)](https://acl2020.org/) [![Highway Transformer](https://img.shields.io/badge/Transformers-Gating%20Transformer-orange)](https://www.aclweb.org/anthology/2020.acl-main.616.pdf) [![GitHub](https://img.shields.io/github/license/cyk1337/Highway-Transformer)](https://www.apache.org/licenses/LICENSE-2.0) 
+
+This repo is the demo code of Transformer-XL using **Self-Dependency Unit**. This work is closedly related to Gating-enhanced Transformer variants, such as [Google's Switch Transformers](https://github.com/tensorflow/mesh/blob/master/mesh_tensorflow/transformer/moe.py).
 
 Yekun Chai *et. al.*, [Highway Transformer: Self-Gating Enhanced Self-Attentive Networks](https://arxiv.org/abs/2004.08178) (ACL 2020)
 
@@ -14,19 +16,20 @@ Yekun Chai *et. al.*, [Highway Transformer: Self-Gating Enhanced Self-Attentive 
 
 `bash getdata.sh`
 
-## Run the demo with 6-layer Transformer-XL
+## Run 6-layer Transformer-XL
 ```bash
 cd pytorch/xl_L6_scripts && bash <script-name>.sh train --work_dir "PATH_TO_WORK_DIR"
 ```
 
-## Result visualization
+## Visualizing Your Result
 ```bash
 cd XL-L6-results && tensorboard --logdir=.
 ```
 
 ## Results
 
-Line plots of different model settings, where the topmost line (in red) is the original Transformer-XL (baselines).
+- Line plots of different model settings, where the *topmost line (in red)* is the baseline model (i.e., original Transformer-XL). 
+- After adding Self-Dependency Unit (see bottom two curves), it is clear that Highway Transformer **speeds up the convergence process** during training and evaluation.
 
 training bpc    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        |  training loss&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 :-------------------------:|:-------------------------:
@@ -40,7 +43,8 @@ training bpc    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs
 
 
 
-# Cite
+# Citation
+For attribution in academic contexts, please cite this work as:
 ```
 @inproceedings{chai-etal-2020-highway,
     title = "Highway Transformer: Self-Gating Enhanced Self-Attentive Networks",
